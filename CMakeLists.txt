@@ -20,6 +20,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/MotorFdb.msg
   msg/MotorRef.msg
   msg/NumReal.msg
+  dynamic_param_msg/PidParam.msg
+  dynamic_param_msg/PidParamSet.msg
   DEPENDENCIES std_msgs
 )
 
