@@ -22,7 +22,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/NumReal.msg
   msg/ImuRaw.msg
   dynamic_param_msg/PidParam.msg
+  dynamic_param_msg/LqrParam.msg
   dynamic_param_msg/PidParamSet.msg
+  dynamic_param_msg/LqrParamSet.msg
   dynamic_param_msg/TwoFloat.msg
   DEPENDENCIES std_msgs
 )
