@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/MotorRef.msg
   msg/NumReal.msg
   msg/ImuRaw.msg
+  msg/ImuEuler.msg
   dynamic_param_msg/PidParam.msg
   dynamic_param_msg/LqrParam.msg
   dynamic_param_msg/PidParamSet.msg
