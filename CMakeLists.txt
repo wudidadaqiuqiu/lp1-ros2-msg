@@ -23,6 +23,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/ImuRaw.msg
   msg/ImuEuler.msg
   msg/ImuFullInfo.msg
+  msg/C20Send.msg
+  msg/C20Recv.msg
   dynamic_param_msg/PidParam.msg
   dynamic_param_msg/LqrParam.msg
   dynamic_param_msg/PidParamSet.msg
